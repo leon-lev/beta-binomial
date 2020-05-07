@@ -3,14 +3,26 @@
 Applying the Beta-Binomial model for movie rating estimation.
 
 
-## Installation
+## Environment Setup
 
-1. Install conda from [here](https://www.anaconda.com/).
+1. Using pip:
 
-2. Either create a new conda environment:
+    ```
+    python3 -m venv your_env
+    source your_env/bin/activate
+    pip3 install -r requirements.txt
+    ```
+ 
+2. Using [conda](https://www.anaconda.com/):
 
-    `conda env create -f environment.yml`
+    Either create a new conda environment:
+
+    ```
+    conda env create -f environment.yml
+    ```
 
     Or update an existing one:
 
-    `conda env update --name your_env_name --file environment.yml`
+    ```
+    conda env update --name your_env_name --file environment.yml
+    ```
